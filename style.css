@@ -104,27 +104,61 @@ body {
     align-items: center;
     color: white;
 }
-.screen-text h1{
+
+.screen-text h1 {
     margin-left: 3vmax;
 
 }
-.span1{
+
+.span1 {
     color: #79E0EE;
 }
-.span2{
+
+.span2 {
     color: #98EECC;
 }
-.span3{
-    color: #D0F5BE;;
+
+.span3 {
+    color: #D0F5BE;
+    ;
 }
-.span4{
-    color: #FBFFDC;;
+
+.span4 {
+    color: #FBFFDC;
+    ;
 }
-.form-h5{
+
+.form-h5 {
     font-size: 1vmax;
     color: white;
     font-family: "Gilroy";
     font-weight: 300;
     margin-top: 0.5vmax;
-   
+
+}
+
+@media (max-width:600px){
+
+    .time{
+        font-size: 5vmax;
+        margin-top: 35vmax;
+    }
+    .dropDown{
+        margin-bottom: 10vmax;
+    }
+    .screen-text h1 {
+        margin-left: 3vmax;
+        margin-top: 50vmax;
+        font-weight: 500;
+        font-size: 3vmax;
+    
+    }
+    form img{
+        width: 10vmax;
+    }
+    .form-h5{
+        font-size: 2vmax;
+        margin-top: 0.5vmax;
+    }
+
 }
